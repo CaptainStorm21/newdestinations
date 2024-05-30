@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Yosemite National Park",
+    "city": "California",
+    "country": "United States",
+    "description": "Yosemite National Park is renowned for its granite cliffs, waterfalls, giant sequoia groves, and biological diversity.",
+    "photo_url": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
+    "fact": "Yosemite Falls, one of the tallest waterfalls in North America, drops a total of 2,425 feet (739 meters)."
+  },
+  {
+    "id": 2,
+    "name": "Tokyo Metropolitan Museum of Art",
+    "city": "Tokyo",
+    "country": "Japan",
+    "description": "The Tokyo Metropolitan Museum of Art houses an extensive collection of Japanese and international art.",
+    "photo_url": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
+    "fact": "The museum's collection includes over 100,000 works of art, ranging from ancient to contemporary."
+  },
+  {
+    "id": 3,
+    "name": "Sydney Opera House",
+    "city": "Sydney",
+    "country": "Australia",
+    "description": "Sydney Opera House is one of the most iconic and recognizable landmarks in the world, featuring a distinctive sail-like design.",
+    "photo_url": "https://www.nathab.com/uploaded-files/shutterstock_513244762.jpg",
+    "fact": "The Sydney Opera House hosts over 1,500 performances annually, attracting millions of visitors."
+  },
+  {
+    "id": 4,
+    "name": "Edinburgh Castle",
+    "city": "Edinburgh",
+    "country": "Scotland",
+    "description": "Perched atop Castle Rock, Edinburgh Castle is a historic fortress that dominates the skyline of Edinburgh.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Edinburgh_Castle_Panorama.jpg",
+    "fact": "Edinburgh Castle is home to the Honours of Scotland, Scotland's crown jewels, which date back to the 15th and 16th centuries."
+  },
+  {
+    "id": 5,
+    "name": "Venice",
+    "city": "Venice",
+    "country": "Italy",
+    "description": "Venice is a city built on a network of canals, renowned for its romantic gondola rides, stunning architecture, and rich history.",
+    "photo_url": "http://www.matx.com.au/images/default-image.jpg",
+    "fact": "Venice comprises 118 islands connected by more than 400 bridges, with no roads for vehicles, making it a unique pedestrian city."
+  },
+  {
+    "id": 6,
+    "name": "Hampton Court Palace",
+    "city": "London",
+    "country": "United Kingdom",
+    "description": "Hampton Court Palace is a royal palace located in the borough of Richmond upon Thames, London. It was originally built for Cardinal Thomas Wolsey, a favorite of King Henry VIII.",
+    "photo_url": "https://www.matx.com.au/images/default-image.jpg",
+    "fact": "Hampton Court Palace is famous for its stunning Tudor architecture, beautiful gardens, and its role in Tudor history, including being a residence of King Henry VIII."
+  },
+  {
+    "id": 7,
+    "name": "Vatnajökull National Park",
+    "city": "Höfn",
+    "country": "Iceland",
+    "description": "Vatnajökull National Park, located in southeastern Iceland, is home to Europe's largest glacier, Vatnajökull, and many other natural wonders.",
+    "photo_url": "https://www.matx.com.au/images/default-image.jpg",
+    "fact": "Vatnajökull National Park covers about 14% of Iceland's landmass and includes diverse landscapes such as glaciers, volcanoes, and rivers."
+  },
+  {
+    "id": 8,
+    "name": "Prince Edward Island",
+    "city": "Charlottetown",
+    "country": "Canada",
+    "description": "Prince Edward Island, known for its stunning coastal landscapes and red sand beaches, inspired the setting for the beloved novel 'Anne of Green Gables' by Lucy Maud Montgomery.",
+    "photo_url": "https://www.matx.com.au/images/default-image.jpg",
+    "fact": "Prince Edward Island is the smallest province in Canada, but it boasts some of the most beautiful scenery in the country."
+  }
+]
