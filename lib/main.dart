@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/contactDFT.dart';
+import 'package:newdestinations/randomJson.dart';
 import 'package:newdestinations/gotSuggestion.dart';
-import 'package:newdestinations/randomJson.dart'; // Ensure this file exists
+import 'package:newdestinations/searchResults/filterResults.dart';
+import 'package:newdestinations/search.dart'; // Ensure this file exists
 
 void main() {
   runApp(const MyApp());
@@ -41,8 +43,18 @@ class MyWidget extends StatelessWidget {
         const SizedBox(height: 20), // Add vertical spacing
         const Center(child: Text('german shepherd')),
         const SizedBox(height: 20), // Add vertical spacing
-        const RandomJson(), // This widget should be defined in randomJson.dart
-        const SizedBox(height: 20), // Add vertical spacing
+  const SizedBox(height: 20),
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const FilterResults()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Filtered Results'),
+        ),        const SizedBox(height: 20), // Add vertical spacing
         //  const GotSuggestionForm(),
         const SizedBox(height: 20),
         ElevatedButton(
@@ -68,7 +80,23 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Contact Us'),
         ),
+           const SizedBox(height: 20),
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const SearchScreen()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Searchbar Reusable'),
+        ),
       ],
     );
   }
 }
+
+
+
+
