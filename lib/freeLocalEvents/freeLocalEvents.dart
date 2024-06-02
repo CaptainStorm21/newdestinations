@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class FreeLocalEvents extends StatefulWidget {
-  const FreeLocalEvents({Key? key});
+  const FreeLocalEvents({super.key,});
 
   @override
   _FreeLocalEventsState createState() => _FreeLocalEventsState();
@@ -37,80 +37,87 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8.0),
-          child: Text(
-            'Free Events Nearby',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+    return Scaffold(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 8.0),
+                child: Text(
+                  'Free Events Nearby',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8),
+              SizedBox(
+                height: 220,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: events.length,
+                  itemBuilder: (context, index) {
+                    DateTime date = DateTime.parse(events[index]['date']);
+                    if (date.isBefore(currentDate)) {
+                      // Event date has passed, hide the entire event
+                      return const SizedBox.shrink();
+                    }
+                    String formattedDate = DateFormat('MMMM d, yyyy').format(date);
+          
+                    return Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(color: const Color(0xFFCDC2A2), width: 2),
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      margin: const EdgeInsets.all(5.0),
+                      child: Card(
+                        child: Container(
+                          width: 200,
+                          height: 200,
+                          padding: const EdgeInsets.all(5.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Image.network(
+                                events[index]['event_photo'],
+                                height: 100,
+                                width: double.infinity,
+                                fit: BoxFit.cover,
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                formattedDate,
+                                style: const TextStyle(fontSize: 12),
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                events[index]['event_description'],
+                                style: const TextStyle(fontSize: 12),
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                events[index]['address']['city'],
+                                style: const TextStyle(fontSize: 12),
+                              ),
+                              const SizedBox(height: 5),
+                              Text(
+                                events[index]['price'] == 0.00 ? "Free" : "\$${events[index]['price']}",
+                                style: const TextStyle(fontSize: 12, color: Colors.green),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
           ),
         ),
-        const SizedBox(height: 8),
-        Container(
-          height: 220,
-          child: ListView.builder(
-            scrollDirection: Axis.horizontal,
-            itemCount: events.length,
-            itemBuilder: (context, index) {
-              DateTime date = DateTime.parse(events[index]['date']);
-              if (date.isBefore(currentDate)) {
-                // Event date has passed, hide the entire event
-                return SizedBox.shrink();
-              }
-              String formattedDate = DateFormat('MMMM d, yyyy').format(date);
-
-              return Container(
-                decoration: BoxDecoration(
-                  border: Border.all(color: Color(0xFFCDC2A2), width: 2),
-                  borderRadius: BorderRadius.circular(4),
-                ),
-                margin: const EdgeInsets.all(5.0),
-                child: Card(
-                  child: Container(
-                    width: 200,
-                    height: 200,
-                    padding: const EdgeInsets.all(5.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.network(
-                          events[index]['event_photo'],
-                          height: 100,
-                          width: double.infinity,
-                          fit: BoxFit.cover,
-                        ),
-                        const SizedBox(height: 5),
-                        Text(
-                          formattedDate,
-                          style: const TextStyle(fontSize: 12),
-                        ),
-                        const SizedBox(height: 5),
-                        Text(
-                          events[index]['event_description'],
-                          style: const TextStyle(fontSize: 12),
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        const SizedBox(height: 5),
-                        Text(
-                          events[index]['address']['city'],
-                          style: const TextStyle(fontSize: 12),
-                        ),
-                        const SizedBox(height: 5),
-                        Text(
-                          events[index]['price'] == 0.00 ? "Free" : "\$${events[index]['price']}",
-                          style: const TextStyle(fontSize: 12, color: Colors.green),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              );
-            },
-          ),
-        ),
-      ],
+      ),
     );
   }
 }
