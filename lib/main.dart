@@ -3,6 +3,7 @@ import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/randomJson.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/searchResults/filterResults.dart';
+import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/search.dart'; // Ensure this file exists
 
 void main() {
@@ -50,10 +51,10 @@ class MyWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (context) =>
-                      const FilterResults()), // Navigate to the gotSuggestion.dart screen
+                      const FreeLocalEvents()), // Navigate to the gotSuggestion.dart screen
             );
           },
-          child: const Text('Filtered Results'),
+          child: const Text('Free Events'),
         ),        const SizedBox(height: 20), // Add vertical spacing
         //  const GotSuggestionForm(),
         const SizedBox(height: 20),

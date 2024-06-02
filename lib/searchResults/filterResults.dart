@@ -1,9 +1,9 @@
+import 'FilterSortWidget.dart';
 import 'package:flutter/material.dart';
 
-import 'FilterSortWidget.dart';
 
 class FilterResults extends StatefulWidget {
-  const FilterResults({Key? key}) : super(key: key);
+  const FilterResults({super.key});
 
   @override
   _FilterResultsState createState() => _FilterResultsState();
@@ -16,7 +16,7 @@ class _FilterResultsState extends State<FilterResults> {
 
   void _showFilterSortWidget() {
     _overlayEntry = _createOverlayEntry();
-    Overlay.of(context)?.insert(_overlayEntry!);
+    Overlay.of(context).insert(_overlayEntry!);
   }
 
   OverlayEntry _createOverlayEntry() {
