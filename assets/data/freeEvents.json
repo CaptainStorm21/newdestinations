@@ -1,0 +1,161 @@
+[{
+        "id": 1,
+        "event_name": "Beach Bonfire Night",
+        "event_photo": "https://st2.depositphotos.com/1591133/8812/i/380/depositphotos_88120646-stock-photo-idyllic-summer-landscape-with-clear.jpg",
+        "address": {
+            "street": "123 Ocean Blvd",
+            "city": "Santa Monica",
+            "state": "CA",
+            "zipcode": "90401"
+        },
+        "event_description": "Summer is here. Exclusive screening of the latest blockbuster in the heart of Santa Monica .",
+        "price": 0.00,
+        "date": "2024-07-15",
+        "starting_time": "6:00 PM",
+        "ending_time": "10:00 PM"
+    },
+    {
+        "id": 2,
+        "event_name": "Hollywood Film Screening",
+        "event_photo": "https://st.depositphotos.com/1771536/1285/i/380/depositphotos_12851576-stock-photo-seljalandfoss-waterfall-at-sunset-in.jpg",
+        "address": {
+            "street": "456 Hollywood Blvd",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipcode": "90028"
+        },
+        "event_description": "Exclusive screening of the latest blockbuster in the heart of Hollywood.",
+        "price": 0.00,
+        "date": "2024-08-01",
+        "starting_time": "7:00 PM",
+        "ending_time": "10:00 PM"
+    },
+    {
+        "id": 3,
+        "event_name": "San Diego Food Festival",
+        "event_photo": "https://st.depositphotos.com/1899425/1623/i/380/depositphotos_16232649-stock-photo-moraine-lake-sunrise-colorful-landscape.jpg",
+        "address": {
+            "street": "789 Culinary Ave",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92101"
+        },
+        "event_description": "Taste the best dishes from top chefs at the San Diego Food Festival.",
+        "price": 0.00,
+        "date": "2024-06-20",
+        "starting_time": "11:00 AM",
+        "ending_time": "7:00 PM"
+    },
+    {
+        "id": 4,
+        "event_name": "Anaheim Music Concert",
+        "event_photo": "https://st3.depositphotos.com/12985886/36771/i/380/depositphotos_367718324-stock-photo-panoramic-shot-monastery-holy-trinity.jpg",
+        "address": {
+            "street": "101 Melody Lane",
+            "city": "Anaheim",
+            "state": "CA",
+            "zipcode": "92805"
+        },
+        "event_description": "Enjoy live performances by popular bands and artists in Anaheim.",
+        "price": 0.00,
+        "date": "2024-09-10",
+        "starting_time": "5:00 PM",
+        "ending_time": "11:00 PM"
+    },
+    {
+        "id": 5,
+        "event_name": "Long Beach Art Walk",
+        "event_photo": "https://st2.depositphotos.com/6588682/9386/i/380/depositphotos_93866404-stock-photo-tatra-mountains-poland.jpg",
+        "address": {
+            "street": "202 Art St",
+            "city": "Long Beach",
+            "state": "CA",
+            "zipcode": "90802"
+        },
+        "event_description": "Stroll through downtown Long Beach and admire artwork from local artists.",
+        "price": 0.00,
+        "date": "2024-07-05",
+        "starting_time": "10:00 AM",
+        "ending_time": "6:00 PM"
+    },
+    {
+        "id": 6,
+        "event_name": "Santa Ana Cultural Festival",
+        "event_photo": "https://st.depositphotos.com/1024916/1819/i/380/depositphotos_18197007-stock-photo-konitsa-bridge.jpg",
+        "address": {
+            "street": "303 Culture Blvd",
+            "city": "Santa Ana",
+            "state": "CA",
+            "zipcode": "92701"
+        },
+        "event_description": "Experience diverse cultures through music, dance, and food in Santa Ana.",
+        "price": 0.00,
+        "date": "2024-08-22",
+        "starting_time": "12:00 PM",
+        "ending_time": "8:00 PM"
+    },
+    {
+        "id": 7,
+        "event_name": "Irvine Tech Expo",
+        "event_photo": "https://st.depositphotos.com/1927453/1975/i/380/depositphotos_19750405-stock-photo-alone-tree-on-meadow-at.jpg",
+        "address": {
+            "street": "404 Innovation Way",
+            "city": "Irvine",
+            "state": "CA",
+            "zipcode": "92618"
+        },
+        "event_description": "Discover the latest in technology and innovation at the Irvine Tech Expo.",
+        "price": 0.00,
+        "date": "2024-09-30",
+        "starting_time": "9:00 AM",
+        "ending_time": "5:00 PM"
+    },
+    {
+        "id": 8,
+        "event_name": "Huntington Beach Surf Competition",
+        "event_photo": "https://static3.depositphotos.com/1007646/231/i/380/depositphotos_2310024-stock-photo-blossoming-tree-in-spring.jpg",
+        "address": {
+            "street": "505 Surfside Dr",
+            "city": "Huntington Beach",
+            "state": "CA",
+            "zipcode": "92648"
+        },
+        "event_description": "Watch top surfers compete in the annual Huntington Beach Surf Competition.",
+        "price": 0.00,
+        "date": "2024-07-25",
+        "starting_time": "8:00 AM",
+        "ending_time": "4:00 PM"
+    },
+    {
+        "id": 9,
+        "event_name": "Pasadena Rose Parade",
+        "event_photo": "https://st4.depositphotos.com/14883968/21324/i/380/depositphotos_213244388-stock-photo-landscape-glacial-black-lake-mountains.jpg",
+        "address": {
+            "street": "606 Rose Parade Blvd",
+            "city": "Pasadena",
+            "state": "CA",
+            "zipcode": "91101"
+        },
+        "event_description": "Join the festivities at the iconic Rose Parade in Pasadena.",
+        "price": 0.00,
+        "date": "2024-01-01",
+        "starting_time": "8:00 AM",
+        "ending_time": "12:00 PM"
+    },
+    {
+        "id": 10,
+        "event_name": "Escondido Wine Tasting",
+        "event_photo": "https://st4.depositphotos.com/19165034/21484/i/380/depositphotos_214849552-stock-photo-trysil-norway-july-2018-living.jpg",
+        "address": {
+            "street": "707 Vineyard Rd",
+            "city": "Escondido",
+            "state": "CA",
+            "zipcode": "92025"
+        },
+        "event_description": "Sample fine wines from local vineyards in Escondido.",
+        "price": 0.00,
+        "date": "2024-10-15",
+        "starting_time": "2:00 PM",
+        "ending_time": "6:00 PM"
+    }
+]
