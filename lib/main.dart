@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/gotSuggestion.dart';
+import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/countryAirports/countryAirports.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/search.dart'; // Ensure this file exists
@@ -39,14 +40,27 @@ class MyWidget extends StatelessWidget {
         const SizedBox(height: 20), // Add vertical spacing
         const Center(child: Text('where did my cat go?')),
         const SizedBox(height: 20), // Add vertical spacing
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) =>
+                    const AirportWidget(), // Navigate to the gotSuggestion.dart screen
+              ),
+            );
+          },
+          child: const Text('Airports Abbreviations'),
+        ),
         const SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) =>
-                      const CountryAirports(countryCode: 'Scotland')), // Navigate to the gotSuggestion.dart screen
+                  builder: (context) => const CountryAirports(
+                      countryCode:
+                          'Scotland')), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Airports'),

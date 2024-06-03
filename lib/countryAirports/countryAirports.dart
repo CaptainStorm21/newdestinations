@@ -22,7 +22,7 @@ class _CountryAirportsState extends State<CountryAirports> {
   }
 
   Future<List<Airport>> fetchAirports(String countryCode) async {
-    const apiKey = '';
+    const apiKey = 'AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g';
     final response = await http.get(Uri.parse(
         'https://maps.googleapis.com/maps/api/place/textsearch/json?query=airports+in+$countryCode&key=$apiKey'));
 
