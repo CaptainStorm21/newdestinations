@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/contactDFT.dart';
-import 'package:newdestinations/randomJson.dart';
 import 'package:newdestinations/gotSuggestion.dart';
-import 'package:newdestinations/searchResults/filterResults.dart';
+import 'package:newdestinations/countryAirports/countryAirports.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/search.dart'; // Ensure this file exists
+// ignore: unused_import
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +12,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +29,6 @@ class MyApp extends StatelessWidget {
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -42,9 +39,19 @@ class MyWidget extends StatelessWidget {
         const SizedBox(height: 20), // Add vertical spacing
         const Center(child: Text('where did my cat go?')),
         const SizedBox(height: 20), // Add vertical spacing
-        const Center(child: Text('german shepherd')),
-        const SizedBox(height: 20), // Add vertical spacing
-  const SizedBox(height: 20),
+        const SizedBox(height: 20),
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const CountryAirports(countryCode: 'Scotland')), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Airports'),
+        ),
+        const SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
             Navigator.push(
@@ -55,7 +62,8 @@ class MyWidget extends StatelessWidget {
             );
           },
           child: const Text('Free Events'),
-        ),        const SizedBox(height: 20), // Add vertical spacing
+        ),
+        const SizedBox(height: 20), // Add vertical spacing
         //  const GotSuggestionForm(),
         const SizedBox(height: 20),
         ElevatedButton(
@@ -81,7 +89,7 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Contact Us'),
         ),
-           const SizedBox(height: 20),
+        const SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
             Navigator.push(
@@ -97,7 +105,3 @@ class MyWidget extends StatelessWidget {
     );
   }
 }
-
-
-
-
