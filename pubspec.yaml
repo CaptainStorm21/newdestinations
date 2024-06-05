@@ -26,5 +26,6 @@ flutter:
 
   assets:
     - assets/data/newAdventures.json
-    - assets/data/newAdventures1.json
     - assets/data/freeEvents.json
+    - assets/data/lowBudgetAirlines.json
+    - assets/data/countryTabs.json

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/contactDFT.dart';
+import 'package:newdestinations/countryScreen/countryTabWidget.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/countryAirports/countryAirports.dart';
@@ -48,7 +49,18 @@ class MyWidget extends StatelessWidget {
           child: const Text('Country Screenn'),
         ),
         const SizedBox(height: 20), // Add vertical spacing
-
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      CountryTabWidget()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('CountryTabWidget'),
+        ),
+        const SizedBox(height: 20), // Add vertical spacing
   ElevatedButton(
           onPressed: () {
             Navigator.push(
