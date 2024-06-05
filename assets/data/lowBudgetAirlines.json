@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "name": "Ryanair",
+        "description": "Ryanair is an Irish low-cost airline founded in 1984. It is known for its low fares and extensive route network across Europe.",
+        "website_url": "https://www.ryanair.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Ryanair_logo.svg"
+    },
+    {
+        "id": 2,
+        "name": "EasyJet",
+        "description": "EasyJet is a British low-cost carrier headquartered at London Luton Airport. It operates domestic and international scheduled services on over 1,000 routes in more than 30 countries.",
+        "website_url": "https://www.easyjet.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/EasyJet_logo_2015.svg/1200px-EasyJet_logo_2015.svg.png"
+    },
+    {
+        "id": 3,
+        "name": "Southwest Airlines",
+        "description": "Southwest Airlines is the world's largest low-cost carrier, based in the United States. Known for its flexible ticketing options and free checked bags policy.",
+        "website_url": "https://www.southwest.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/2/2d/Southwest_Airlines_logo_2014.svg"
+    },
+    {
+        "id": 4,
+        "name": "AirAsia",
+        "description": "AirAsia is a Malaysian low-cost airline known for its extensive network in Asia. It offers no-frills service at competitive prices.",
+        "website_url": "https://www.airasia.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AirAsia_New_Logo.svg/1200px-AirAsia_New_Logo.svg.png"
+    },
+    {
+        "id": 5,
+        "name": "JetBlue",
+        "description": "JetBlue is a low-cost airline based in New York City, known for offering more amenities than typical low-cost carriers. It provides in-flight entertainment and free snacks.",
+        "website_url": "https://www.jetblue.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/JetBlue_Logo.svg/1200px-JetBlue_Logo.svg.png"
+    },
+    {
+        "id": 6,
+        "name": "Spirit Airlines",
+        "description": "Spirit Airlines is an American ultra-low-cost carrier headquartered in Florida. It is known for its low base fares and extensive optional services.",
+        "website_url": "https://www.spirit.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Spirit_Airlines_logo.svg/1200px-Spirit_Airlines_logo.svg.png"
+    },
+    {
+        "id": 7,
+        "name": "Norwegian Air Shuttle",
+        "description": "Norwegian Air Shuttle is a Norwegian low-cost airline known for its extensive European network. It also operates long-haul flights to the Americas and Asia.",
+        "website_url": "https://www.norwegian.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Norwegian_Air_Shuttle_Dreamliner_Logo.svg/1200px-Norwegian_Air_Shuttle_Dreamliner_Logo.svg.png"
+    },
+    {
+        "id": 8,
+        "name": "Wizz Air",
+        "description": "Wizz Air is a Hungarian low-cost airline with a focus on Central and Eastern Europe. It offers low fares and a young fleet of Airbus aircraft.",
+        "website_url": "https://www.wizzair.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Wizz_Air_logo.svg/1200px-Wizz_Air_logo.svg.png"
+    },
+    {
+        "id": 9,
+        "name": "Vueling",
+        "description": "Vueling is a Spanish low-cost airline based in Barcelona. It operates a large number of routes within Europe and to some destinations in Africa and the Middle East.",
+        "website_url": "https://www.vueling.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Vueling.svg/1200px-Vueling.svg.png"
+    },
+    {
+        "id": 10,
+        "name": "Scoot",
+        "description": "Scoot is a Singaporean low-cost airline and a subsidiary of Singapore Airlines. It operates flights to various destinations across Asia and Australia.",
+        "website_url": "https://www.flyscoot.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Scoot_Logo.svg/1200px-Scoot_Logo.svg.png"
+    },
+    {
+        "id": 11,
+        "name": "Frontier Airlines",
+        "description": "Frontier Airlines is an American ultra-low-cost carrier based in Denver, Colorado. It is known for its low fares and additional charges for services.",
+        "website_url": "https://www.flyfrontier.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frontier_Airlines_Logo.svg/1200px-Frontier_Airlines_Logo.svg.png"
+    },
+    {
+        "id": 12,
+        "name": "Allegiant Air",
+        "description": "Allegiant Air is an American low-cost airline that focuses on leisure travelers. It offers low fares and operates charter and scheduled flights.",
+        "website_url": "https://www.allegiantair.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Allegiant_Air_logo.svg/1200px-Allegiant_Air_logo.svg.png"
+    },
+    {
+        "id": 13,
+        "name": "IndiGo",
+        "description": "IndiGo is an Indian low-cost airline headquartered in Gurgaon. It is the largest airline in India by passengers carried and fleet size.",
+        "website_url": "https://www.goindigo.in",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/IndiGo_Logo.svg/1200px-IndiGo_Logo.svg.png"
+    },
+    {
+        "id": 14,
+        "name": "Peach Aviation",
+        "description": "Peach Aviation is a Japanese low-cost airline and a subsidiary of All Nippon Airways. It operates flights to domestic and international destinations from its base in Osaka.",
+        "website_url": "https://www.flypeach.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Peach_Aviation_logo.svg/1200px-Peach_Aviation_logo.svg.png"
+    },
+    {
+        "id": 15,
+        "name": "Cebu Pacific",
+        "description": "Cebu Pacific is a Philippine low-cost airline headquartered in Manila. It operates extensive domestic and international routes.",
+        "website_url": "https://www.cebupacificair.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cebu_Pacific_logo.svg/1200px-Cebu_Pacific_logo.svg.png"
+    },
+    {
+        "id": 16,
+        "name": "Tigerair Australia",
+        "description": "Tigerair Australia was an Australian low-cost airline and a subsidiary of Virgin Australia. It ceased operations in 2020.",
+        "website_url": "https://www.tigerair.com.au",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tigerair_Australia_logo.svg/1200px-Tigerair_Australia_logo.svg.png"
+    },
+    {
+        "id": 17,
+        "name": "Flydubai",
+        "description": "Flydubai is a government-owned low-cost airline in Dubai, UAE. It operates flights to destinations in the Middle East, Africa, Asia, and Europe.",
+        "website_url": "https://www.flydubai.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flydubai_logo.svg/1200px-Flydubai_logo.svg.png"
+    },
+    {
+        "id": 18,
+        "name": "VivaAerobus",
+        "description": "VivaAerobus is a Mexican low-cost airline based in Monterrey. It is known for offering low fares and a pay-for-what-you-use pricing model.",
+        "website_url": "https://www.vivaaerobus.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/VivaAerobus_logo.svg/1200px-VivaAerobus_logo.svg.png"
+    },
+    {
+        "id": 19,
+        "name": "Volaris",
+        "description": "Volaris is a Mexican low-cost airline headquartered in Mexico City. It operates domestic and international flights to the United States, Central America, and South America.",
+        "website_url": "https://www.volaris.com",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Volaris_logo.svg/768px-Volaris_logo.svg.png"
+    }
+]

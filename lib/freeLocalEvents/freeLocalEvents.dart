@@ -1,12 +1,14 @@
 import 'dart:convert';
+import 'dart:async';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 class FreeLocalEvents extends StatefulWidget {
-  const FreeLocalEvents({Key? key});
+  const FreeLocalEvents({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _FreeLocalEventsState createState() => _FreeLocalEventsState();
 }
 
@@ -21,7 +23,7 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
     currentDate = DateTime.now();
   }
 
-  Future<void> loadEventData() async {
+  FutureOr<void> loadEventData() async {
     final String response = await rootBundle.loadString('assets/data/freeEvents.json');
     final data = await json.decode(response);
     setState(() {
@@ -76,10 +78,11 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Image.network(
-                          events[index]['event_photo'],
+                          events[index]['event_photo'] ?? '',
                           height: 100,
                           width: double.infinity,
                           fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) => Icon(Icons.image_not_supported),
                         ),
                         const SizedBox(height: 5),
                         Text(
@@ -88,13 +91,13 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
                         ),
                         const SizedBox(height: 5),
                         Text(
-                          events[index]['event_description'],
+                          events[index]['event_description'] ?? '',
                           style: const TextStyle(fontSize: 12),
                           overflow: TextOverflow.ellipsis,
                         ),
                         const SizedBox(height: 5),
                         Text(
-                          events[index]['address']['city'],
+                          events[index]['address']['city'] ?? '',
                           style: const TextStyle(fontSize: 12),
                         ),
                         const SizedBox(height: 5),

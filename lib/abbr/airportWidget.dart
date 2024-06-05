@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'dart:async';
+
 
 class AirportWidget extends StatefulWidget {
   const AirportWidget({super.key});
@@ -20,8 +22,9 @@ class _AirportWidgetState extends State<AirportWidget> {
     fetchAirportData();
   }
 
-  Future<void> fetchAirportData() async {
-    const apiKey = 'AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g'; // Replace with your API key
+  FutureOr<void> fetchAirportData() async {
+    const apiKey =
+        'AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g'; // Replace with your API key
     const url =
         'https://maps.googleapis.com/maps/api/place/textsearch/json?query=airports+in+Scotland&key=$apiKey';
 
@@ -32,7 +35,8 @@ class _AirportWidgetState extends State<AirportWidget> {
       final results = data['results'];
 
       setState(() {
-        airportCodes = results.map<String>((airport) => airport['iata_code']).toList();
+        airportCodes =
+            results.map<String>((airport) => airport['iata_code']).toList();
         isLoading = false;
       });
 

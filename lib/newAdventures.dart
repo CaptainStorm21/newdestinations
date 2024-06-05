@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart';
-
+import 'dart:async';
 
 class NewAdventures extends StatefulWidget {
   const NewAdventures({super.key});
@@ -22,9 +22,10 @@ class _NewAdventuresState extends State<NewAdventures> {
     loadAdventures();
   }
 
-  Future<void> loadAdventures() async {
+  FutureOr<void> loadAdventures() async {
     try {
-      final String response = await rootBundle.loadString('assets/data/newAdventures.json');
+      final String response =
+          await rootBundle.loadString('assets/data/newAdventures.json');
       final List<dynamic> data = json.decode(response);
       setState(() {
         adventures = data;
@@ -68,10 +69,12 @@ class _NewAdventuresState extends State<NewAdventures> {
                 child: Row(
                   children: [
                     Image.network(
-                      adventure['photo_url'] ?? 'https://www.matx.com.au/images/default-image.jpg',
+                      adventure['photo_url'] ??
+                          'https://www.matx.com.au/images/default-image.jpg',
                       width: 140,
                       height: 120,
-                      errorBuilder: (BuildContext context, Object exception, StackTrace? stackTrace) {
+                      errorBuilder: (BuildContext context, Object exception,
+                          StackTrace? stackTrace) {
                         return Image.network(
                           'https://www.matx.com.au/images/default-image.jpg',
                           width: 140,
