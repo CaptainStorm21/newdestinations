@@ -119,12 +119,14 @@ Widget build(BuildContext context) {
             tabs: tabData.map((tab) => Tab(text: tab['tab_name'])).toList(),
           ),
           // Wrap TabBarView with a Container and set its height limit
-          Container(
-            constraints: const BoxConstraints(maxHeight: 800),
-            child: TabBarView(
-              children: tabData.map((tab) {
-                return _loadTabPage(tab['tab_page']);
-              }).toList(),
+          Expanded(
+            child: Container(
+              constraints: const BoxConstraints(maxHeight: 800),
+              child: TabBarView(
+                children: tabData.map((tab) {
+                  return _loadTabPage(tab['tab_page']);
+                }).toList(),
+              ),
             ),
           ),
         ],

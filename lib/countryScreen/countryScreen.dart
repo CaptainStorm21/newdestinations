@@ -9,6 +9,7 @@ class CountryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final height=MediaQuery.of(context).size.height;
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
@@ -69,7 +70,10 @@ class CountryScreen extends StatelessWidget {
               ),
             ),
             // Your existing widgets go here
-           CountryTabWidget(),
+            SizedBox(
+              height: height*0.6,
+              child: CountryTabWidget())
+          //  CountryTabWidget(),
           ],
         ),
       ),
