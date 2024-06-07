@@ -9,6 +9,8 @@ import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
+
+import 'openingScreen/opening_screen.dart';
 // ignore: unused_import
 
 void main() {
@@ -50,6 +52,17 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
+         ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const OpeningScreen()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Opening Screen'),
+        ),
          const SizedBox(height: 20), // Add vertical rspacing
         ElevatedButton(
           onPressed: () {

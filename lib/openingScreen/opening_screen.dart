@@ -1,11 +1,8 @@
-import 'dart:math';
 import 'dart:convert';
+import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() {
-  runApp(const MyApp());
-}
 
 class Destination {
   final int id;
@@ -30,14 +27,14 @@ class Destination {
   }
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class OpeningScreen extends StatefulWidget {
+  const OpeningScreen({super.key});
 
   @override
-  _MyAppState createState() => _MyAppState();
+  _OpeningScreenState createState() => _OpeningScreenState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _OpeningScreenState extends State<OpeningScreen> {
   late List<Destination> destinations;
   late Destination currentDestination = Destination(
     id: 0,
@@ -55,14 +52,13 @@ class _MyAppState extends State<MyApp> {
   Future<void> loadDestinations() async {
     try {
       String data =
-          await rootBundle.loadString('assets/json/splashDestination.json');
+          await rootBundle.loadString('assets/data/splashDestination.json');
       List<dynamic> jsonList = json.decode(data)['destinations'];
       destinations =
           jsonList.map((e) => Destination.fromJson(e)).toList();
-      setState(() {
         currentDestination =
             destinations[Random().nextInt(destinations.length)];
-      });
+    print(currentDestination);
     } catch (e) {
       Text('Error loading destinations: $e');
     }
