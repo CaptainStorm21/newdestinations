@@ -43,7 +43,7 @@ class MyWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (context) =>
-                       CountryScreen()), // Navigate to the gotSuggestion.dart screen
+                       const CountryScreen()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Country Screenn'),

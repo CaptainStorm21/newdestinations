@@ -42,15 +42,15 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8.0),
           child: Text(
             'Free Events Nearby',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
         ),
         const SizedBox(height: 8),
-        Container(
+        SizedBox(
           height: 220,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -59,13 +59,13 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
               DateTime date = DateTime.parse(events[index]['date']);
               if (date.isBefore(currentDate)) {
                 // Event date has passed, hide the entire event
-                return SizedBox.shrink();
+                return const SizedBox.shrink();
               }
               String formattedDate = DateFormat('MMMM d, yyyy').format(date);
 
               return Container(
                 decoration: BoxDecoration(
-                  border: Border.all(color: Color(0xFFCDC2A2), width: 2),
+                  border: Border.all(color: const Color(0xFFCDC2A2), width: 2),
                   borderRadius: BorderRadius.circular(4),
                 ),
                 margin: const EdgeInsets.all(5.0),
@@ -82,7 +82,7 @@ class _FreeLocalEventsState extends State<FreeLocalEvents> {
                           height: 100,
                           width: double.infinity,
                           fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) => Icon(Icons.image_not_supported),
+                          errorBuilder: (context, error, stackTrace) => const Icon(Icons.image_not_supported),
                         ),
                         const SizedBox(height: 5),
                         Text(

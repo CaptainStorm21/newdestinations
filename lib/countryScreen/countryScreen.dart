@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
+import 'package:newdestinations/emergencyNumbers/EmergencyInfo.dart';
 import 'package:newdestinations/search/search.dart';
 
 class CountryScreen extends StatelessWidget {
-  final String countryName = "Scotland";
-
-  const CountryScreen({super.key});
+  const CountryScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final height=MediaQuery.of(context).size.height;
+    final height = MediaQuery.of(context).size.height;
+    final country = "Scotland"; // Change var to final for better type inference
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
@@ -19,7 +19,7 @@ class CountryScreen extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-        title: Text('Explore $countryName'),
+        title: Text('Explore $country'), // Use the 'country' variable here
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -34,7 +34,8 @@ class CountryScreen extends StatelessWidget {
                 width: double.infinity,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: NetworkImage('https://hips.hearstapps.com/countryliving.cdnds.net/17/04/1485357430-scotland-kilchurn-castle.jpg'),
+                    image: NetworkImage(
+                        'https://hips.hearstapps.com/countryliving.cdnds.net/17/04/1485357430-scotland-kilchurn-castle.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -69,11 +70,38 @@ class CountryScreen extends StatelessWidget {
                 ],
               ),
             ),
-            // Your existing widgets go here
+            // Adding CountryTabWidget
             SizedBox(
-              height: height*0.6,
-              child: CountryTabWidget())
-          //  CountryTabWidget(),
+              height: height * 0.6,
+              child: CountryTabWidget(),
+            ),
+            // Adding a row at the bottom
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Row(
+                children: [
+                 
+                  Expanded(
+                    child: Container(
+                      color: Colors.blueGrey,
+                      height: 700,
+                      child: Center(
+                        child: country == 'Scotland'
+                            ? const EmergencyInfo(
+                                // Pass your emergency numbers data here
+                                emergencyNumbers: {},
+                                nonEmergencyNumbers: {},
+                              ) // Display EmergencyInfo widget if country is Scotland
+                            : Center(
+                                child: Text(
+                                    'No emergency information available for $country'),
+                              ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

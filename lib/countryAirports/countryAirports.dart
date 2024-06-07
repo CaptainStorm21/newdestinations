@@ -44,10 +44,10 @@ class _CountryAirportsState extends State<CountryAirports> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Major Airports in Scotland'),
+        title: const Text('Major Airports in Scotland'),
       ),
       body: isLoading
-          ? Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator())
           : ListView.builder(
               itemCount: airports.length,
               itemBuilder: (context, index) {
@@ -58,7 +58,7 @@ class _CountryAirportsState extends State<CountryAirports> {
                       title: Text(airport['name']),
                       subtitle: Text(airport['formatted_address']),
                     ),
-                    Divider(),
+                    const Divider(),
                   ],
                 );
               },

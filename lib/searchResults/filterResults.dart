@@ -6,11 +6,12 @@ class FilterResults extends StatefulWidget {
   const FilterResults({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _FilterResultsState createState() => _FilterResultsState();
 }
 
 class _FilterResultsState extends State<FilterResults> {
-  final String _selectedOption = 'Sort by'; // Default selected option
+// Default selected option
 
   OverlayEntry? _overlayEntry;
 
