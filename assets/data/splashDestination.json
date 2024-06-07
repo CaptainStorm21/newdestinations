@@ -1,0 +1,58 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "destination_name": "Paris",
+      "destination_description": "Cultural Icon of Europe",
+      "destination_image": "https://img.goodfon.com/original/1920x1080/0/99/gotika-svechi-sobor-vitrazhi-paris-france-kandeliabry-sain-1.jpg"
+    },
+    {
+      "id": 2,
+      "destination_name": "Tallinn",
+      "destination_description": "Medieval Gem of Europe",
+      "destination_image": "https://img.goodfon.com/original/1920x1080/b/1f/tallinn-estonia-tallin-rainbow-sverkhu-doma-raduga-gorod.jpg"
+    },
+    {
+      "id": 3,
+      "destination_name": "Helsinki",
+      "destination_description": "Seaside Serenity",
+      "destination_image": "https://img.goodfon.com/original/1920x1080/2/c8/helsinki-finland-helsinki.jpg"
+    },
+    {
+      "id": 4,
+      "destination_name": "Riga",
+      "destination_description": "Baltic Beauty",
+      "destination_image": "https://img.goodfon.com/original/1920x1080/a/c6/riga-old-town-latvia.jpg"
+    },
+    {
+      "id": 5,
+      "destination_name": "Vancouver",
+      "destination_description": "Gateway to the Pacific",
+      "destination_image": "https://img.goodfon.com/original/1920x1080/1/ad/lions-gate-bridge-vancouver-bc-canada.jpg"
+    },
+    {
+      "id": 6,
+      "destination_name": "Banff",
+      "destination_description": "Stunning Scenic Vistas",
+      "destination_image": "https://i.pinimg.com/564x/6d/d0/72/6dd072b3f12569ef8304721175b337ba.jpg"
+    },
+    {
+      "id": 7,
+      "destination_name": "Turin",
+      "destination_description": "Chocolate Lovers' Paradise",
+      "destination_image": "https://wallpapercave.com/wp/wp4195784.jpg"
+    },
+    {
+      "id": 8,
+      "destination_name": "Milan",
+      "destination_description": "Baroque Architectural Splendor",
+      "destination_image": "https://wallpapercave.com/wp/wp12542361.jpg"
+    },
+    {
+      "id": 9,
+      "destination_name": "Sassari",
+      "destination_description": "Cultural Mosaic Haven",
+      "destination_image": "https://wallpapercave.com/wp/wp11136500.jpg"
+    }
+  ]
+}

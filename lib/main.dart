@@ -38,6 +38,18 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
+          const SizedBox(height: 20), // Add vertical rspacing
+        // ElevatedButton(
+        //   onPressed: () {
+        //     Navigator.push(
+        //       context,
+        //       MaterialPageRoute(
+        //           builder: (context) =>
+        //               const ()), // Navigate to the gotSuggestion.dart screen
+        //     );
+        //   },
+        //   child: const Text('Main Screen'),
+        // ),
          const SizedBox(height: 20), // Add vertical rspacing
         ElevatedButton(
           onPressed: () {
