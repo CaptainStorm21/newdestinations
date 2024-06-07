@@ -197,9 +197,6 @@ class DayTrips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Day Trips'),
-      ),
       body: ListView.builder(
         itemCount: cities.length,
         itemBuilder: (context, index) {

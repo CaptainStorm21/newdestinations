@@ -1,0 +1,1906 @@
+{
+    "Wales": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "999",
+            "Mountain Rescue": "999",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "101",
+            "NHS 24 (medical advice)": "111"
+        }
+    },
+    "England": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "999",
+            "Mountain Rescue": "999",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "101",
+            "NHS 111 (medical advice)": "111"
+        }
+    },
+    "Scotland": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "999",
+            "Mountain Rescue": "999",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "101",
+            "NHS 24 (medical advice)": "111"
+        }
+    },
+    "Northern Ireland": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "999",
+            "Mountain Rescue": "999",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "101",
+            "NHS Direct (medical advice)": "111"
+        }
+    },
+    "Albania": {
+        "emergency_numbers": {
+            "Police": "129",
+            "Fire and Rescue Service": "128",
+            "Ambulance Service": "127",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Andorra": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "116",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Armenia": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Austria": {
+        "emergency_numbers": {
+            "Police": "133",
+            "Fire and Rescue Service": "122",
+            "Ambulance Service": "144",
+            "Coastguard": "",
+            "Mountain Rescue": "140",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": "1450"
+        }
+    },
+    "Bahamas": {
+        "emergency_numbers": {
+            "Police": "911",
+            "Fire and Rescue Service": "919",
+            "Ambulance Service": "919",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bahrain": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bangladesh": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Barbados": {
+        "emergency_numbers": {
+            "Police": "211",
+            "Fire and Rescue Service": "311",
+            "Ambulance Service": "511",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Belarus": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Belgium": {
+        "emergency_numbers": {
+            "Police": "101",
+            "Fire and Rescue Service": "100",
+            "Ambulance Service": "100",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "101",
+            "NHS 24 (medical advice)": "1733"
+        }
+    },
+    "Belize": {
+        "emergency_numbers": {
+            "Police": "911",
+            "Fire and Rescue Service": "911",
+            "Ambulance Service": "911",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Benin": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "118",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bhutan": {
+        "emergency_numbers": {
+            "Police": "113",
+            "Fire and Rescue Service": "110",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bolivia": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "118",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bosnia and Herzegovina": {
+        "emergency_numbers": {
+            "Police": "122",
+            "Fire and Rescue Service": "123",
+            "Ambulance Service": "124",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Botswana": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "998",
+            "Ambulance Service": "997",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Brazil": {
+        "emergency_numbers": {
+            "Police": "190",
+            "Fire and Rescue Service": "193",
+            "Ambulance Service": "192",
+            "Coastguard": "190",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Brunei": {
+        "emergency_numbers": {
+            "Police": "993",
+            "Fire and Rescue Service": "995",
+            "Ambulance Service": "991",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Bulgaria": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": "112"
+        }
+    },
+    "Burkina Faso": {
+        "emergency_numbers": {
+            "Police": "17",
+            "Fire and Rescue Service": "18",
+            "Ambulance Service": "18",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Burundi": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Cabo Verde": {
+        "emergency_numbers": {
+            "Police": "132",
+            "Fire and Rescue Service": "131",
+            "Ambulance Service": "130",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Cambodia": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "119",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Cameroon": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "119",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Canada": {
+        "emergency_numbers": {
+            "Police": "911",
+            "Fire and Rescue Service": "911",
+            "Ambulance Service": "911",
+            "Coastguard": "911",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Central African Republic": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "119",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Chad": {
+        "emergency_numbers": {
+            "Police": "17",
+            "Fire and Rescue Service": "18",
+            "Ambulance Service": "2251-51-63-14",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Chile": {
+        "emergency_numbers": {
+            "Police": "133",
+            "Fire and Rescue Service": "132",
+            "Ambulance Service": "131",
+            "Coastguard": "137",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "China": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "120",
+            "Coastguard": "999",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Colombia": {
+        "emergency_numbers": {
+            "Police": "123",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "125",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Comoros": {
+        "emergency_numbers": {
+            "Police": "17",
+            "Fire and Rescue Service": "18",
+            "Ambulance Service": "772-03-03",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Congo": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "119",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Costa Rica": {
+        "emergency_numbers": {
+            "Police": "911",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "911",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Croatia": {
+        "emergency_numbers": {
+            "Police": "192",
+            "Fire and Rescue Service": "193",
+            "Ambulance Service": "194",
+            "Coastguard": "195",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Cuba": {
+        "emergency_numbers": {
+            "Police": "106",
+            "Fire and Rescue Service": "105",
+            "Ambulance Service": "104",
+            "Coastguard": "106",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Cyprus": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Czech Republic": {
+        "emergency_numbers": {
+            "Police": "158",
+            "Fire and Rescue Service": "150",
+            "Ambulance Service": "155",
+            "Coastguard": "",
+            "Mountain Rescue": "1210",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Denmark": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Estonia": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Finland": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "France": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Germany": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Greece": {
+        "emergency_numbers": {
+            "Police": "100",
+            "Fire and Rescue Service": "199",
+            "Ambulance Service": "166",
+            "Coastguard": "108",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Hungary": {
+        "emergency_numbers": {
+            "Police": "107",
+            "Fire and Rescue Service": "105",
+            "Ambulance Service": "104",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Iceland": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "118",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "444 1000",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Ireland": {
+        "emergency_numbers": {
+            "Police": "999 or 112",
+            "Fire and Rescue Service": "999 or 112",
+            "Ambulance Service": "999 or 112",
+            "Coastguard": "999 or 112",
+            "Mountain Rescue": "999 or 112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "Garda Confidential Line: 1800 666 111",
+            "NHS 24 (medical advice)": "111"
+        }
+    },
+    "Italy": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "115",
+            "Ambulance Service": "118",
+            "Coastguard": "1530",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Kazakhstan": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Kosovo": {
+        "emergency_numbers": {
+            "Police": "192",
+            "Fire and Rescue Service": "193",
+            "Ambulance Service": "194",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Latvia": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "113",
+            "Coastguard": "118",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "67075668",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Liechtenstein": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "144",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Lithuania": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "8 700 20250",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Luxembourg": {
+        "emergency_numbers": {
+            "Police": "113",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "113",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Malta": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "21 224001",
+            "NHS 24 (medical advice)": "112"
+        }
+    },
+    "Moldova": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "901",
+            "Ambulance Service": "903",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Monaco": {
+        "emergency_numbers": {
+            "Police": "17",
+            "Fire and Rescue Service": "18",
+            "Ambulance Service": "15",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Montenegro": {
+        "emergency_numbers": {
+            "Police": "122",
+            "Fire and Rescue Service": "123",
+            "Ambulance Service": "124",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Netherlands": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "0900-8844",
+            "NHS 24 (medical advice)": "0900-1844"
+        }
+    },
+    "North Macedonia": {
+        "emergency_numbers": {
+            "Police": "192",
+            "Fire and Rescue Service": "193",
+            "Ambulance Service": "194",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Norway": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "110",
+            "Ambulance Service": "113",
+            "Coastguard": "120",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "02800",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Poland": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "997",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Portugal": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "214 401 919",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "217 929 714",
+            "NHS 24 (medical advice)": "808 24 24 24"
+        }
+    },
+    "Romania": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Russia": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "112",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "San Marino": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "115",
+            "Ambulance Service": "118",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Serbia": {
+        "emergency_numbers": {
+            "Police": "192",
+            "Fire and Rescue Service": "193",
+            "Ambulance Service": "194",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Slovakia": {
+        "emergency_numbers": {
+            "Police": "158",
+            "Fire and Rescue Service": "150",
+            "Ambulance Service": "155",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "158",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Slovenia": {
+        "emergency_numbers": {
+            "Police": "113",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "113",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Spain": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "091",
+            "NHS 24 (medical advice)": "112"
+        }
+    },
+    "Sweden": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "112",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "114 14",
+            "NHS 24 (medical advice)": "1177"
+        }
+    },
+    "Switzerland": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "144",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "117",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Turkey": {
+        "emergency_numbers": {
+            "Police": "155",
+            "Fire and Rescue Service": "110",
+            "Ambulance Service": "112",
+            "Coastguard": "158",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "155",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Ukraine": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "101",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Vatican City": {
+        "emergency_numbers": {
+            "Police": "113",
+            "Fire and Rescue Service": "115",
+            "Ambulance Service": "118",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "113",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Afghanistan": {
+        "emergency_numbers": {
+            "Police": "119",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "119",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "119",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Georgia": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "India": {
+        "emergency_numbers": {
+            "Police": "100",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "102",
+            "Coastguard": "191",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "100",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Indonesia": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "113",
+            "Ambulance Service": "118",
+            "Coastguard": "151",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "110",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Iran": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "125",
+            "Ambulance Service": "115",
+            "Coastguard": "115",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "110",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Iraq": {
+        "emergency_numbers": {
+            "Police": "104",
+            "Fire and Rescue Service": "115",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "104",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Israel": {
+        "emergency_numbers": {
+            "Police": "100",
+            "Fire and Rescue Service": "102",
+            "Ambulance Service": "101",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "100",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Japan": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "119",
+            "Coastguard": "118",
+            "Mountain Rescue": "118",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "110",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Jordan": {
+        "emergency_numbers": {
+            "Police": "191",
+            "Fire and Rescue Service": "199",
+            "Ambulance Service": "193",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "191",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Kuwait": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "112",
+            "Ambulance Service": "112",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Kyrgyzstan": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "102",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Laos": {
+        "emergency_numbers": {
+            "Police": "191",
+            "Fire and Rescue Service": "190",
+            "Ambulance Service": "195",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "191",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Lebanon": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "175",
+            "Ambulance Service": "140",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Malaysia": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "994",
+            "Ambulance Service": "999",
+            "Coastguard": "994",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "999",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Maldives": {
+        "emergency_numbers": {
+            "Police": "119",
+            "Fire and Rescue Service": "118",
+            "Ambulance Service": "102",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "119",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Mongolia": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "102",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Nepal": {
+        "emergency_numbers": {
+            "Police": "",
+            "Fire and Rescue Service": "",
+            "Ambulance Service": "",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": ""
+        },
+        "non_emergency_numbers": {
+            "Police": "",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Oman": {
+        "emergency_numbers": {
+            "Police": "9999",
+            "Fire and Rescue Service": "9999",
+            "Ambulance Service": "9999",
+            "Coastguard": "9999",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "9999",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Pakistan": {
+        "emergency_numbers": {
+            "Police": "15",
+            "Fire and Rescue Service": "16",
+            "Ambulance Service": "115",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "15",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Palestine": {
+        "emergency_numbers": {
+            "Police": "100",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "102",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "100",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Philippines": {
+        "emergency_numbers": {
+            "Police": "117",
+            "Fire and Rescue Service": "117",
+            "Ambulance Service": "117",
+            "Coastguard": "117",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "117",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Qatar": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "999",
+            "Ambulance Service": "999",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "999",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Russia (partially in Asia)": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "112",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Saudi Arabia": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "998",
+            "Ambulance Service": "997",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "999",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Singapore": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "995",
+            "Ambulance Service": "995",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "999",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "South Korea": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "119",
+            "Coastguard": "119",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Sri Lanka": {
+        "emergency_numbers": {
+            "Police": "119",
+            "Fire and Rescue Service": "110",
+            "Ambulance Service": "110",
+            "Coastguard": "1919",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "119",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Syria": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "113",
+            "Ambulance Service": "110",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Taiwan": {
+        "emergency_numbers": {
+            "Police": "110",
+            "Fire and Rescue Service": "119",
+            "Ambulance Service": "119",
+            "Coastguard": "118",
+            "Mountain Rescue": "118",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "110",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Tajikistan": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "102",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Thailand": {
+        "emergency_numbers": {
+            "Police": "191",
+            "Fire and Rescue Service": "199",
+            "Ambulance Service": "1554",
+            "Coastguard": "1199",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "191",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Timor-Leste (East Timor)": {
+        "emergency_numbers": {
+            "Police": "112",
+            "Fire and Rescue Service": "115",
+            "Ambulance Service": "110",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "112",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Turkey (partially in Asia)": {
+        "emergency_numbers": {
+            "Police": "155",
+            "Fire and Rescue Service": "110",
+            "Ambulance Service": "112",
+            "Coastguard": "158",
+            "Mountain Rescue": "112",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "155",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "United Arab Emirates": {
+        "emergency_numbers": {
+            "Police": "999",
+            "Fire and Rescue Service": "997",
+            "Ambulance Service": "998",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "901",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Uzbekistan": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "102",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Vietnam": {
+        "emergency_numbers": {
+            "Police": "113",
+            "Fire and Rescue Service": "114",
+            "Ambulance Service": "115",
+            "Coastguard": "911",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "113",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Yemen": {
+        "emergency_numbers": {
+            "Police": "194",
+            "Fire and Rescue Service": "191",
+            "Ambulance Service": "191",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "194",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Turkmenistan": {
+        "emergency_numbers": {
+            "Police": "102",
+            "Fire and Rescue Service": "101",
+            "Ambulance Service": "103",
+            "Coastguard": "",
+            "Mountain Rescue": "",
+            "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+            "Police": "102",
+            "NHS 24 (medical advice)": ""
+        }
+    },
+    "Australia": {
+        "emergency_numbers": {
+          "Police": "000",
+          "Fire and Rescue Service": "000",
+          "Ambulance Service": "000",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "131 444",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "New Zealand": {
+        "emergency_numbers": {
+          "Police": "111",
+          "Fire and Rescue Service": "111",
+          "Ambulance Service": "111",
+          "Coastguard": "111",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "105",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Papua New Guinea": {
+        "emergency_numbers": {
+          "Police": "000",
+          "Fire and Rescue Service": "000",
+          "Ambulance Service": "000",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "111",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Fiji": {
+        "emergency_numbers": {
+          "Police": "917",
+          "Fire and Rescue Service": "911",
+          "Ambulance Service": "910",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "917",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Solomon Islands": {
+        "emergency_numbers": {
+          "Police": "999",
+          "Fire and Rescue Service": "988",
+          "Ambulance Service": "999",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "999",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Vanuatu": {
+        "emergency_numbers": {
+          "Police": "112",
+          "Fire and Rescue Service": "112",
+          "Ambulance Service": "112",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "112",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Samoa": {
+        "emergency_numbers": {
+          "Police": "995",
+          "Fire and Rescue Service": "996",
+          "Ambulance Service": "994",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "22222",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Kiribati": {
+        "emergency_numbers": {
+          "Police": "192",
+          "Fire and Rescue Service": "193",
+          "Ambulance Service": "194",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "192",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Tonga": {
+        "emergency_numbers": {
+          "Police": "922",
+          "Fire and Rescue Service": "933",
+          "Ambulance Service": "933",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "922",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Tuvalu": {
+        "emergency_numbers": {
+          "Police": "911",
+          "Fire and Rescue Service": "911",
+          "Ambulance Service": "911",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "911",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Nauru": {
+        "emergency_numbers": {
+          "Police": "110",
+          "Fire and Rescue Service": "111",
+          "Ambulance Service": "112",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "110",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Palau": {
+        "emergency_numbers": {
+          "Police": "911",
+          "Fire and Rescue Service": "911",
+          "Ambulance Service": "911",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "911",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Marshall Islands": {
+        "emergency_numbers": {
+          "Police": "625-8666",
+          "Fire and Rescue Service": "625-8633",
+          "Ambulance Service": "625-9111",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "625-8666",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Federated States of Micronesia": {
+        "emergency_numbers": {
+          "Police": "911",
+          "Fire and Rescue Service": "911",
+          "Ambulance Service": "911",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "911",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Cook Islands": {
+        "emergency_numbers": {
+          "Police": "999",
+          "Fire and Rescue Service": "996",
+          "Ambulance Service": "998",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "999",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Niue": {
+        "emergency_numbers": {
+          "Police": "999",
+          "Fire and Rescue Service": "999",
+          "Ambulance Service": "999",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "999",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "East Timor": {
+        "emergency_numbers": {
+          "Police": "112",
+          "Fire and Rescue Service": "112",
+          "Ambulance Service": "112",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "112",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "New Caledonia": {
+        "emergency_numbers": {
+          "Police": "17",
+          "Fire and Rescue Service": "18",
+          "Ambulance Service": "15",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "17",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Norfolk Island": {
+        "emergency_numbers": {
+          "Police": "000",
+          "Fire and Rescue Service": "000",
+          "Ambulance Service": "000",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "000",
+          "NHS 24 (medical advice)": ""
+        }
+      },
+      "Wallis and Futuna": {
+        "emergency_numbers": {
+          "Police": "17",
+          "Fire and Rescue Service": "18",
+          "Ambulance Service": "15",
+          "Coastguard": "",
+          "Mountain Rescue": "",
+          "European Emergency": "112"
+        },
+        "non_emergency_numbers": {
+          "Police": "17",
+          "NHS 24 (medical advice)": ""
+        }
+      }
+}
