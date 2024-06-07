@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newdestinations/cityScreen/CityScreen.dart';
 import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
 import 'package:newdestinations/gotSuggestion.dart';
@@ -37,6 +38,18 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
+         const SizedBox(height: 20), // Add vertical rspacing
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const CityScreen()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('City Screen'),
+        ),
         ElevatedButton(
           onPressed: () {
             Navigator.push(

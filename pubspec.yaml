@@ -30,3 +30,4 @@ flutter:
     - assets/data/lowBudgetAirlines.json
     - assets/data/countryTabs.json
     - assets/data/emergencyNumbers.json
+    - assets/data/citiesNearby.json
