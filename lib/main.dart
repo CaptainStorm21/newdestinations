@@ -11,6 +11,7 @@ import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
 
 import 'openingScreen/opening_screen.dart';
+import 'streams/streams_example.dart';
 // ignore: unused_import
 
 void main() {
@@ -40,19 +41,21 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-          const SizedBox(height: 20), // Add vertical rspacing
-        // ElevatedButton(
-        //   onPressed: () {
-        //     Navigator.push(
-        //       context,
-        //       MaterialPageRoute(
-        //           builder: (context) =>
-        //               const ()), // Navigate to the gotSuggestion.dart screen
-        //     );
-        //   },
-        //   child: const Text('Main Screen'),
-        // ),
-         ElevatedButton(
+        const SizedBox(height: 20), // Add vertical rspacing
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const StreamExample()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Stream Example'),
+        ),
+        const SizedBox(height: 20), // Add vertical rspacing
+
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
@@ -63,7 +66,7 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Opening Screen'),
         ),
-         const SizedBox(height: 20), // Add vertical rspacing
+        const SizedBox(height: 20), // Add vertical rspacing
         ElevatedButton(
           onPressed: () {
             Navigator.push(
@@ -81,7 +84,7 @@ class MyWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (context) =>
-                       const CountryScreen()), // Navigate to the gotSuggestion.dart screen
+                      const CountryScreen()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Country Screenn'),
@@ -99,12 +102,13 @@ class MyWidget extends StatelessWidget {
           child: const Text('CountryTabWidget'),
         ),
         const SizedBox(height: 20), // Add vertical spacing
-  ElevatedButton(
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => const LowBudgetAirlines()), // Navigate to the gotSuggestion.dart screen
+                  builder: (context) =>
+                      const LowBudgetAirlines()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Low Budget Airlines'),
@@ -149,10 +153,11 @@ class MyWidget extends StatelessWidget {
         ElevatedButton(
           onPressed: () {
             Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => const DestinationHub(), // Navigate to the gotSuggestion.dart screen
-            ));
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      const DestinationHub(), // Navigate to the gotSuggestion.dart screen
+                ));
           },
           child: const Text('Destination Main'),
         ),
