@@ -4,12 +4,14 @@ import 'package:provider/provider.dart';
 import 'DestinationMain.dart';
 import 'google_place_provider.dart';
 
+// ! use main method only once for a single project.
 void main() {
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => GooglePlaceProvider('AIzaSyCsDn8FS6C9tpS9zaOgNMcxXbMp4zfwwcA'),
+          create: (_) =>
+              GooglePlaceProvider('AIzaSyCsDn8FS6C9tpS9zaOgNMcxXbMp4zfwwcA'),
         ),
       ],
       child: const DestinationHub(),
