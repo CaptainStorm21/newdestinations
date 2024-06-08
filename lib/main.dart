@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:newdestinations/cityScreen/CityScreen.dart';
 import 'package:newdestinations/contactDFT.dart';
+import 'package:newdestinations/countryAirports/DestinationHub.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/abbr/airportWidget.dart';
-import 'package:newdestinations/countryAirports/countryAirports.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
@@ -138,12 +138,10 @@ class MyWidget extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => const CountryAirports(
-                      countryCode:
-                          'Scotland')), // Navigate to the gotSuggestion.dart screen
-            );
+                  builder: (context) => const DestinationHub(), // Navigate to the gotSuggestion.dart screen
+            ));
           },
-          child: const Text('Airports'),
+          child: const Text('Destination Main'),
         ),
         const SizedBox(height: 20),
         ElevatedButton(
