@@ -9,6 +9,7 @@ import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
+import 'package:newdestinations/unescoSites/unescoSites.dart';
 
 import 'openingScreen/opening_screen.dart';
 // ignore: unused_import
@@ -52,6 +53,18 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
+           ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const UNESCOsites()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('UNESCO sites'),
+        ),
+         const SizedBox(height: 20), // Add vertical rspacing
          ElevatedButton(
           onPressed: () {
             Navigator.push(
