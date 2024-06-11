@@ -14,6 +14,8 @@ import 'package:newdestinations/unescoSites/unescoSites.dart';
 import 'openingScreen/opening_screen.dart';
 // ignore: unused_import
 
+String googleMapKey="AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g";
+
 void main() {
   runApp(const MyApp());
 }

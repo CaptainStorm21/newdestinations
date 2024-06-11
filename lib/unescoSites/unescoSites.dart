@@ -28,7 +28,10 @@ class UNESCOsites extends StatelessWidget {
                   return Card(
                     child: ListTile(
                       leading: site.photoUrl.isNotEmpty
-                          ? Image.network(site.photoUrl, width: 50, height: 50, fit: BoxFit.cover)
+                          ? SizedBox(
+                            width: 100,
+                            height: 100,
+                            child: Image.network(site.photoUrl, width: 50, height: 50, fit: BoxFit.cover))
                           : null,
                       title: Text(site.name),
                       subtitle: Text(
