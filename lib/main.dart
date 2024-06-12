@@ -53,6 +53,18 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
+                   ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const AmusementParks()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Amusement Parks'),
+        ),
+         const SizedBox(height: 20), // Add vertical rspacing
            ElevatedButton(
           onPressed: () {
             Navigator.push(
