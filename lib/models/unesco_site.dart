@@ -1,3 +1,5 @@
+import 'package:newdestinations/main.dart';
+
 class UNESCOSite {
   final String name;
   final String description;
@@ -15,7 +17,7 @@ class UNESCOSite {
     final photos = json['photos'];
     final photoReference = photos != null && photos.isNotEmpty ? photos[0]['photo_reference'] : null;
     final photoUrl = photoReference != null
-        ? 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=$photoReference&key=YOUR_GOOGLE_API_KEY'
+        ? 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=$photoReference&key=$googleMapKey'
         : '';
 
     return UNESCOSite(
