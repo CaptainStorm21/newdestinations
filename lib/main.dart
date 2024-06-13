@@ -4,11 +4,13 @@ import 'package:newdestinations/cityScreen/CityScreen.dart';
 import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/countryAirports/DestinationHub.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
+import 'package:newdestinations/cubit/thumb_card_cubit.dart';
 import 'package:newdestinations/filterDialog/filter.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
+import 'package:newdestinations/reusableItems/thumbCard.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
 import 'package:newdestinations/unescoSites/unescoSites.dart';
@@ -58,6 +60,19 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
+        const SizedBox(height: 20), // Add vertical 
+         ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      ThumbCard(cityName: 'Glasgow', countryName: 'Scotland', sitesToVisit: 10, hiddenGems: 50,)), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Reusable ThumbCard'),
+        ),
+        const SizedBox(height: 20), // Add vertical 
         ElevatedButton(
           onPressed: () {
             Navigator.push(
