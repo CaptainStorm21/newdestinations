@@ -4,6 +4,7 @@ import 'package:newdestinations/cityScreen/CityScreen.dart';
 import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/countryAirports/DestinationHub.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
+import 'package:newdestinations/filterDialog/filter.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
@@ -12,10 +13,11 @@ import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
 import 'package:newdestinations/unescoSites/unescoSites.dart';
 
+
 import 'openingScreen/opening_screen.dart';
 // ignore: unused_import
 
-String googleMapKey="AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g";
+String googleMapKey = "AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g";
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +46,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-          const SizedBox(height: 20), // Add vertical rspacing
+        const SizedBox(height: 20), // Add vertical rspacing
         // ElevatedButton(
         //   onPressed: () {
         //     Navigator.push(
@@ -56,7 +58,7 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
-                   ElevatedButton(
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
@@ -67,8 +69,9 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Amusement Parks'),
         ),
-         const SizedBox(height: 20), // Add vertical rspacing
-           ElevatedButton(
+        const SizedBox(height: 20), // Add vertical 
+        
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
@@ -79,8 +82,8 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('UNESCO sites'),
         ),
-         const SizedBox(height: 20), // Add vertical rspacing
-         ElevatedButton(
+        const SizedBox(height: 20), // Add vertical rspacing
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
@@ -91,7 +94,16 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Opening Screen'),
         ),
-         const SizedBox(height: 20), // Add vertical rspacing
+        ElevatedButton(
+          onPressed: () {
+            showDialog(
+              context: context,
+              builder: (BuildContext context) => Filter(),
+            );
+          },
+          child: const Text('Filter'),
+        ),
+        const SizedBox(height: 20), // Add vertical rspacing
         ElevatedButton(
           onPressed: () {
             Navigator.push(
@@ -109,7 +121,7 @@ class MyWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (context) =>
-                       const CountryScreen()), // Navigate to the gotSuggestion.dart screen
+                      const CountryScreen()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Country Screenn'),
@@ -127,12 +139,13 @@ class MyWidget extends StatelessWidget {
           child: const Text('CountryTabWidget'),
         ),
         const SizedBox(height: 20), // Add vertical spacing
-  ElevatedButton(
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => const LowBudgetAirlines()), // Navigate to the gotSuggestion.dart screen
+                  builder: (context) =>
+                      const LowBudgetAirlines()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Low Budget Airlines'),
@@ -177,10 +190,11 @@ class MyWidget extends StatelessWidget {
         ElevatedButton(
           onPressed: () {
             Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => const DestinationHub(), // Navigate to the gotSuggestion.dart screen
-            ));
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      const DestinationHub(), // Navigate to the gotSuggestion.dart screen
+                ));
           },
           child: const Text('Destination Main'),
         ),
