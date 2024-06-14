@@ -25,6 +25,10 @@ dependencies:
   provider: ^6.1.2
   equatable: ^2.0.0
   flutter_bloc: ^8.1.6
+  carousel_slider: ^4.0.0
+  logger: ^2.3.0
+  cached_network_image: ^3.1.0
+  bloc: ^8.1.4
 
 dev_dependencies:
   flutter_test:

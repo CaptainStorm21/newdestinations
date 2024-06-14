@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:newdestinations/amusementParks/AmusementParks.dart';
 import 'package:newdestinations/cityScreen/CityScreen.dart';
 import 'package:newdestinations/contactDFT.dart';
 import 'package:newdestinations/countryAirports/DestinationHub.dart';
 import 'package:newdestinations/countryScreen/countryTabWidget.dart';
-import 'package:newdestinations/cubit/thumb_card_cubit.dart';
 import 'package:newdestinations/filterDialog/filter.dart';
 import 'package:newdestinations/gotSuggestion.dart';
 import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
+import 'package:newdestinations/nationalParks/national_parks_widget.dart';
+
 import 'package:newdestinations/reusableItems/thumbCard.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
 import 'package:newdestinations/countryScreen/countryScreen.dart';
 import 'package:newdestinations/unescoSites/unescoSites.dart';
-
+import 'package:newdestinations/nationalParks/national_parks_cubit.dart';
 
 import 'openingScreen/opening_screen.dart';
 // ignore: unused_import
@@ -22,7 +24,12 @@ import 'openingScreen/opening_screen.dart';
 String googleMapKey = "AIzaSyC5cgeX5IMFRn72hDbCQSCRF_qPMaItw1g";
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    BlocProvider(
+      create: (context) => NationalParksCubit(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -60,19 +67,25 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
-        const SizedBox(height: 20), // Add vertical 
-         ElevatedButton(
+
+        const SizedBox(height: 20), // Add vertical
+        ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) =>
-                      ThumbCard(cityName: 'Glasgow', countryName: 'Scotland', sitesToVisit: 10, hiddenGems: 50,)), // Navigate to the gotSuggestion.dart screen
+                  builder: (context) => ThumbCard(
+                        cityName: 'Glasgow',
+                        countryName: 'Scotland',
+                        sitesToVisit: 10,
+                        hiddenGems: 50,
+                      )), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('Reusable ThumbCard'),
         ),
-        const SizedBox(height: 20), // Add vertical 
+
+        const SizedBox(height: 20), // Add vertical
         ElevatedButton(
           onPressed: () {
             Navigator.push(
@@ -84,8 +97,19 @@ class MyWidget extends StatelessWidget {
           },
           child: const Text('Amusement Parks'),
         ),
-        const SizedBox(height: 20), // Add vertical 
-        
+        const SizedBox(height: 20), // Add vertical
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      NationalParksWidget()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('National Parks'),
+        ),
+        const SizedBox(height: 20), // Add vertical
         ElevatedButton(
           onPressed: () {
             Navigator.push(
