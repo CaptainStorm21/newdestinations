@@ -11,6 +11,8 @@ import 'package:newdestinations/abbr/airportWidget.dart';
 import 'package:newdestinations/freeLocalEvents/freeLocalEvents.dart';
 import 'package:newdestinations/lowBudgetAirlines/lowBudgetAirlines.dart';
 import 'package:newdestinations/nationalParks/national_parks_widget.dart';
+import 'package:newdestinations/reusableItems/PreviewCardScreen.dart';
+import 'package:newdestinations/reusableItems/previewCard.dart';
 
 import 'package:newdestinations/reusableItems/thumbCard.dart';
 import 'package:newdestinations/search/search.dart'; // Ensure this file exists
@@ -67,14 +69,37 @@ class MyWidget extends StatelessWidget {
         //   },
         //   child: const Text('Main Screen'),
         // ),
-
+                const SizedBox(height: 20), // Add vertical
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      const PreviewCardScreen()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Preview Card'),
+        ),
         const SizedBox(height: 20), // Add vertical
         ElevatedButton(
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => ThumbCard(
+                  builder: (context) =>
+                      const AmusementParks()), // Navigate to the gotSuggestion.dart screen
+            );
+          },
+          child: const Text('Amusement Parks'),
+        ),
+        const SizedBox(height: 20), // Add vertical
+        ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => const ThumbCard(
                         cityName: 'Glasgow',
                         countryName: 'Scotland',
                         sitesToVisit: 10,
@@ -104,7 +129,7 @@ class MyWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                   builder: (context) =>
-                      NationalParksWidget()), // Navigate to the gotSuggestion.dart screen
+                      const NationalParksWidget()), // Navigate to the gotSuggestion.dart screen
             );
           },
           child: const Text('National Parks'),
