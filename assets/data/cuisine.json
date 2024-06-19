@@ -1,0 +1,84 @@
+{
+    "Cuisine": {
+      "Italy": [
+        "Northern Italian Cuisine",
+        "Central Italian Cuisine",
+        "Southern Italian Cuisine",
+        "Sicilian Cuisine"
+      ],
+      "France": [
+        "Alsatian Cuisine",
+        "Aquitaine Cuisine",
+        "Auvergne Cuisine",
+        "Brittany Cuisine",
+        "Burgundian Cuisine",
+        "Corsican Cuisine",
+        "Norman Cuisine",
+        "Provençal Cuisine",
+        "Savoyard Cuisine",
+        "Basque Cuisine",
+        "Lyonnaise Cuisine",
+        "Parisian Cuisine",
+        "Champagne Cuisine",
+        "Lorraine Cuisine",
+        "Alsace-Lorraine Cuisine",
+        "Béarn Cuisine",
+        "Gascon Cuisine",
+        "Provencal Cuisine",
+        "Languedoc-Roussillon Cuisine",
+        "Périgord Cuisine",
+        "Catalan Cuisine",
+        "Toulousain Cuisine",
+        "Bordelaise Cuisine"
+      ],
+      "India": [
+        "North Indian Cuisine",
+        "South Indian Cuisine",
+        "East Indian Cuisine",
+        "West Indian Cuisine"
+      ],
+      "Japan": [
+        "Kansai Cuisine",
+        "Kanto Cuisine",
+        "Kyushu Cuisine",
+        "Hokkaido Cuisine"
+      ],
+      "China": [
+        "Cantonese Cuisine",
+        "Szechuan Cuisine",
+        "Shandong Cuisine",
+        "Hunan Cuisine"
+      ],
+      "Mexico": [
+        "Oaxacan Cuisine",
+        "Yucatecan Cuisine",
+        "Pueblan Cuisine",
+        "Michoacán Cuisine"
+      ],
+      "Spain": [
+        "Andalusian Cuisine",
+        "Catalan Cuisine",
+        "Galician Cuisine",
+        "Basque Cuisine"
+      ],
+      "Thailand": [
+        "Central Thai Cuisine",
+        "Northern Thai Cuisine",
+        "Southern Thai Cuisine",
+        "Isaan Cuisine"
+      ],
+      "Greece": [
+        "Cretan Cuisine",
+        "Ionian Cuisine",
+        "Aegean Cuisine",
+        "Macedonian Cuisine"
+      ],
+      "Lebanon": [
+        "Beirut Cuisine",
+        "Tripoli Cuisine",
+        "Sidon Cuisine",
+        "Baalbek Cuisine"
+      ]
+    }
+  }
+  

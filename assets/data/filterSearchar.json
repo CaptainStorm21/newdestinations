@@ -1,0 +1,199 @@
+{
+    "Traveler Type": [
+        "Families with Kids",
+        "Couples/Adults without Kids",
+        "Travelers with Elderly Parents",
+        "Solo Travelers",
+        "Group Travelers",
+        "Adventure Seekers",
+        "Cultural Enthusiasts",
+        "Luxury Travelers",
+        "Budget Travelers",
+        "Nature Lovers",
+        "Foodies",
+        "History Buffs",
+        "Relaxation and Wellness Seekers",
+        "Road Trippers",
+        "Event and Festival Goers",
+        "Handicapped Travelers"
+    ],
+    "Distance": [
+        "Local Trips",
+        "Short-Distance Trips",
+        "Long-Distance Trips",
+        "International Trips"
+    ],
+    "Travel Season": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+    ],
+    "Travel Budget": [
+        "Economy",
+        "Mid-Range",
+        "Luxury"
+    ],
+    "Budget Range": [
+        "Below $500",
+        "$500 - $1,000",
+        "$1,000 - $2,000",
+        "$2,000 - $5,000",
+        "Above $5,000"
+    ],
+    "Hotel Stays": [
+        "Luxury Hotels",
+        "Boutique Hotels",
+        "Budget Hotels",
+        "Family-Friendly Hotels",
+        "Pet-Friendly Hotels",
+        "Eco-Friendly Hotels",
+        "Resorts",
+        "Hostels",
+        "Vacation Rentals",
+        "Bed and Breakfasts",
+        "All-Inclusive Resorts",
+        "Business Hotels",
+        "Extended Stay Hotels",
+        "Accessible Hotels"
+    ],
+    "From Vine to Spirit Destiations": [
+        "Wine Tasting Tours",
+        "Vineyard Visits",
+        "Distillery Tours",
+        "Wine and Spirits Festivals",
+        "Wine and Food Pairing Experiences",
+        "Historical Wineries",
+        "Craft Breweries"
+    ],
+    "Global Festive Rhythms": [
+        "Christmas",
+        "New Year's Day",
+        "Easter",
+        "Diwali",
+        "Hanukkah",
+        "Chinese New Year",
+        "Ramadan",
+        "Thanksgiving",
+        "Halloween",
+        "Carnival",
+        "Oktoberfest",
+        "Songkran",
+        "Lunar New Year",
+        "4th of July, Independence Day",
+        "Bastille Day",
+        "Australia Day",
+        "Cinco de Mayo",
+        "Canada Day",
+        "St. Patrick's Day",
+        "Valentine's Day"
+    ],
+    "Cuisine": [
+        "Indian cuisine",
+        "Italian cuisine",
+        "French cuisine",
+        "Japanese cuisine",
+        "Thai cuisine",
+        "Mexican cuisine",
+        "Spanish cuisine",
+        "Greek cuisine",
+        "Turkish cuisine",
+        "Moroccan cuisine",
+        "Lebanese cuisine",
+        "Vietnamese cuisine",
+        "Korean cuisine",
+        "Brazilian cuisine",
+        "Peruvian cuisine",
+        "Russian cuisine",
+        "German cuisine",
+        "British cuisine",
+        "American cuisine",
+        "Swedish cuisine"
+    ],
+    "transportation_modes": [
+        "Car",
+        "Bus",
+        "Train",
+        "Airplane",
+        "Bicycle",
+        "Boat",
+        "Motorcycle",
+        "RV/Camper"
+    ],
+    "Romantic and Special Occasions": [
+        "Romantic Dates",
+        "Wedding Venues",
+        "Honeymoon Destinations",
+        "1st Date Spots",
+        "Family Reunion",
+        "Business Meeting Restaurants"
+    ],
+    "Adventure Duration": [
+        "1-3 days",
+        "4-7 days",
+        "8-14 days",
+        "15-21 days",
+        "22+ days"
+    ],
+    "Vacation Vibes": [
+        "Beach getaways",
+        "Mountain retreats",
+        "Road trips",
+        "Spa vacations",
+        "Camping trips",
+        "Theme park visits",
+        "Cultural city explorations",
+        "Hiking and outdoor adventures",
+        "Wine country tours"
+    ],
+    "Exploring from Books to Reels": [
+        "Literary Landmarks",
+        "Film Locations",
+        "Author Homes",
+        "Book Festivals",
+        "Movie Studios",
+        "Famous Libraries",
+        "Cinematic Tours",
+        "Movie Theme Parks",
+        "Film Memorabilia Exhibits",
+        "Storybook Dining Adventures",
+        "Old Hollywood Flavors of the World"
+    ],
+    "Legacy of Dynasties, Warriors and Artisans": [
+        "Residences of Historical Figures",
+        "Artisan Craftsmanship Tours",
+        "Monuments and Statues Exploration",
+        "Iconic Historical Landmarks",
+        "Gravesites and Memorials Discovery",
+        "Locations of Historical Events Tours",
+        "Historical Battleground Tours",
+        "Guided Historical Tours",
+        "Artisan Workshops Immersion",
+        "Military History Expeditions",
+        "Cultural Immersion Experiences",
+        "Archaeological Discoveries",
+        "Museum Exhibitions",
+        "Culinary Heritage Tours",
+        "Guided City Exploration",
+        "Textile Artistry Tours",
+        "Battlefield Reinactment Sites"
+    ],
+    "Continents": [
+        "North America",
+        "South America",
+        "Europe",
+        "Africa",
+        "Asia",
+        "Australia",
+        "Antarctica",
+        "North Pole"
+    ],
+    "Pet Preferences": [
+        "Pet-Friendly Accommodations",
+        "Dog Parks and Pet-Friendly Attractions",
+        "Pet-Sitting Services"
+    ],
+    "Accessible Travel Options": [
+        "Accessible Accommodations"
+    ]
+}
