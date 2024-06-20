@@ -44,7 +44,7 @@ class MyHomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const ExploreCountry(),
+                      builder: (context) => const ExploreCountry(country: 'Scotland',),
                     ),
                   );
                 },

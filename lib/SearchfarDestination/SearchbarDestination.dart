@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:newdestinations/modals/filterModal/FilterModalState.dart';
 
-class SeachbarDestination extends StatefulWidget {
-  const SeachbarDestination({super.key});
+class SearchbarDestination extends StatefulWidget {
+  const SearchbarDestination({super.key});
 
   @override
-  _SeachbarDestinationState createState() => _SeachbarDestinationState();
+  _SearchbarDestinationState createState() => _SearchbarDestinationState();
 }
 
-class _SeachbarDestinationState extends State<SeachbarDestination> {
+class _SearchbarDestinationState extends State<SearchbarDestination> {
   final TextEditingController _searchController = TextEditingController();
 
   @override
