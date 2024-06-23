@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:newdestinations/merch_shop/shppingCart.dart';
 import 'package:newdestinations/modals/filterModal/FilterModalState.dart';
 // Import your FilterModalCubit implementation
 import 'package:newdestinations/ExploreCountry/ExploreCountry.dart';
@@ -58,12 +59,15 @@ class MyHomePage extends StatelessWidget {
                     horizontal: 50.0,
                   ),
                 ),
-                child: const Text(
-                  'Explore Country',
-                  style: TextStyle(color: Colors.black),
-                ),
-              ),
-              const SizedBox(height: 10.0),
+ child: ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ShoppingCart()),
+            );
+          },
+          child: const Text('Go to Shopping Cart'),
+        ),),
             ],
           ),
         ),
@@ -71,3 +75,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+
