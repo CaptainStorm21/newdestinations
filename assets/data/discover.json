@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "discover_section_name": "Explore a Country",
+        "discover_section_page": "Explore_a_Country.dart",
+        "discover_section_image": "Explore_a_Country.jpg"
+    },
+    {
+        "id": 2,
+        "discover_section_name": "Explore a City",
+        "discover_section_page": "Explore_a_City.dart",
+        "discover_section_image": "Explore_a_City.jpg"
+    },
+    {
+        "id": 3,
+        "discover_section_name": "Explore a Region",
+        "discover_section_page": "Explore_a_Region.dart",
+        "discover_section_image": "Explore_a_Region.jpg"
+    },
+    {
+        "id": 4,
+        "discover_section_name": "UNESCO sites",
+        "discover_section_page": "UNESCO_sites.dart",
+        "discover_section_image": "UNESCO_sites.jpg"
+    },
+    {
+        "id": 5,
+        "discover_section_name": "Explore National Park",
+        "discover_section_page": "Explore_National_Park.dart",
+        "discover_section_image": "Explore_National_Park.jpg"
+    },
+    {
+        "id": 6,
+        "discover_section_name": "Low Budget Airlines",
+        "discover_section_page": "Low_Budget_Airlines.dart",
+        "discover_section_image": "Low_Budget_Airlines.jpg"
+    },
+    {
+        "id": 7,
+        "discover_section_name": "Weddings, Honeymoon and Special Events Celebrations",
+        "discover_section_page": "Weddings_Honeymoon_and_Special_Events_Celebrations.dart",
+        "discover_section_image": "Weddings_Honeymoon_and_Special_Events_Celebrations.jpg"
+    },
+    {
+        "id": 8,
+        "discover_section_name": "Beautiful Road Trips",
+        "discover_section_page": "Beautiful_Road_Trips.dart",
+        "discover_section_image": "Beautiful_Road_Trips.jpg"
+    },
+    {
+        "id": 9,
+        "discover_section_name": "Pages'n'Reels Spots & Voyages",
+        "discover_section_page": "PagesnReels_Spots_and_Voyages.dart",
+        "discover_section_image": "PagesnReels_Spots_and_Voyages.jpg"
+    },
+    {
+        "id": 10,
+        "discover_section_name": "Becomes something else for a day",
+        "discover_section_page": "Becomes_something_else_for_a_day.dart",
+        "discover_section_image": "Becomes_something_else_for_a_day.jpg"
+    },
+    {
+        "id": 11,
+        "discover_section_name": "Explore the Tapestry of History",
+        "discover_section_page": "Explore_the_Tapestry_of_History.dart",
+        "discover_section_image": "Explore_the_Tapestry_of_History.jpg"
+    },
+    {
+        "id": 12,
+        "discover_section_name": "Explore Wines & Spirits",
+        "discover_section_page": "Explore_Wines_and_Spirits.dart",
+        "discover_section_image": "Explore_Wines_and_Spirits.jpg"
+    },
+    {
+        "id": 13,
+        "discover_section_name": "Cultural Celebrations",
+        "discover_section_page": "Cultural_Celebrations.dart",
+        "discover_section_image": "Cultural_Celebrations.jpg"
+    },
+    {
+        "id": 14,
+        "discover_section_name": "Geo-Adventure Tours",
+        "discover_section_page": "Geo-Adventure_Tours.dart",
+        "discover_section_image": "Geo-Adventure_Tours.jpg"
+    },
+    {
+        "id": 15,
+        "discover_section_name": "Safaris and Wildlife Tourism",
+        "discover_section_page": "Safaris_and_Wildlife_Tourism.dart",
+        "discover_section_image": "Safaris_and_Wildlife_Tourism.jpg"
+    },
+    {
+        "id": 16,
+        "discover_section_name": "Scenic Mountain Treks & Retreats",
+        "discover_section_page": "Scenic_Mountain_Treks_and_Retreats.dart",
+        "discover_section_image": "Scenic_Mountain_Treks_and_Retreats.jpg"
+    }
+]
