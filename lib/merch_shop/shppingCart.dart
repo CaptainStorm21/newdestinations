@@ -27,31 +27,31 @@ class _ShoppingCartState extends State<ShoppingCart> {
       body: ListView(
         children: <Widget>[
           _buildItem(
-            'assets/sweatshirt.png',
+            'assets/sweatshirt.jpg',
             'Sweatshirt',
             19.99,
             true,
           ),
           _buildItem(
-            'assets/tshirt.png',
+            'assets/tshirt.jpg',
             'T-Shirt',
             19.99,
             true,
           ),
           _buildItem(
-            'assets/thermos.png',
+            'assets/thermos.jpg',
             'Thermos',
             19.99,
             false,
           ),
           _buildItem(
-            'assets/backpack.png',
+            'assets/backpack.jpg',
             'Backpack',
             59.99,
             false,
           ),
           _buildItem(
-            'assets/miles_card.png',
+            'assets/miles_card.jpg',
             'Miles Card',
             79.99,
             false,
